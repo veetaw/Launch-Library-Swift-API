@@ -1,8 +1,14 @@
-//
-//  File.swift
-//  
-//
-//  Created by Vito Piegari on 11/01/21.
-//
+let LL_API_URL: String = "https://launchlibrary.net/1.4"
 
-import Foundation
+let endpoints = [
+    "launches": "/launch",
+    "agencies": "/agency",
+    "agencyType": "/agencytype",
+    "launchStatus": "/launchstatus",
+    "locations": "/location",
+    "missions": "/mission",
+    "missionType": "/missiontype",
+    "pads": "/pad",
+    "rockets": "/rockets",
+    "rocketFamily": "/rocketfamily",
+]
